@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="fixed inset-0 text-black bg-white">
       <div className="flex justify-center fixed left-47px right-47px top-50%  -translate-y-50% ">
-        <div className="bg-#cccccc75 absolute -top-50px h-full bottom-50px w-full"></div>
+        <div className="gradient-bg absolute -top-50px h-full bottom-50px w-full"></div>
         <div className="absolute h-62px flex items-center justify-end px-20px -top-62px left-0 right-0">
           <span className="flex mt-16px items-center cursor-pointer max-h-36px hover:bg-white  pr-12px pl-10px rounded-20px transition-all">
             Tüm Ürünler!
