@@ -19,39 +19,33 @@ import { RightIcon } from "../assets/icons/right";
 export default function Gallery() {
   const [like, setLike] = useState(false);
   return (
-    <main className="flex justify-center fixed md:left-47px left-5px right-5px md:right-47px top-50%  -translate-y-50% ">
-      <div className="gradient-bg absolute -top-50px h-full bottom-50px w-full"></div>
-      <div className="absolute h-62px flex items-center justify-end px-20px -top-62px left-0 right-0">
-        <span className="flex mt-16px items-center cursor-pointer max-h-40px hover:bg-white bg-#ffffff80  pr-12px pl-10px rounded-20px transition-all">
+    <main className="flex justify-center px-10px fixed md:left-47px left-15px right-15px md:right-47px top-50%  -translate-y-50% ">
+      <div className="gradient-bg max-w-1240px absolute -top-50px h-full bottom-50px w-full"></div>
+      <div className="absolute px-20px h-62px mt-7px flex items-center justify-between -top-62px [width:calc(100%-40px)] md:max-w-1200px">
+        <span className="font-bold">Çok Satanlar</span>
+        <span className="flex items-center cursor-pointer max-h-40px hover:bg-white bg-#ffffff80  pr-12px pl-10px rounded-20px transition-all">
           Tüm Ürünler!
         </span>
       </div>
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        spaceBetween={32}
         slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          modifier: 2.5,
-        }}
         navigation={{
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         }}
         modules={[Navigation]}
+        className="px-20px max-w-1200px"
       >
         {images.map((image) => (
           <SwiperSlide
-            className="w-212px relative cursor-pointer shadow-md transition-all  hover:shadow-2xl rounded hover:[border:1px_solid_#00000035] [border:1px_solid_#00000020] bg-white h-350px"
+            className="w-212px mr-32px relative cursor-pointer shadow-md transition-all  hover:shadow-2xl rounded hover:[border:1px_solid_#00000035] [border:1px_solid_#00000020] bg-white h-350px"
             key={image.id}
           >
             <div
               onClick={() => setLike(!like)}
               className="w-32px shadow-2xl h-32px rounded-full transition-all text-#242424 duration-400 hover:text-blue flex items-center justify-center bg-white absolute top-10px right-10px z-999999 cursor-pointer"
             >
-              {like ? (
+              {!like ? (
                 <LoveEmpty className="w-24px h-24px" />
               ) : (
                 <LoveFill className="w-24px h-24px text-blue" />

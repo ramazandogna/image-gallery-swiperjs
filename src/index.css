@@ -28,7 +28,7 @@
   transition: all 0.3s ease;
   font-weight: 700;
   position: fixed;
-  right: -21px !important;
+  right: 41px !important;
   z-index: 99999999;
   border: 1px solid #24242420;
 
@@ -63,7 +63,7 @@
   transition: all 0.3s ease;
   font-weight: 700;
   position: fixed;
-  left: -21px !important;
+  left: 41px !important;
   z-index: 99999999;
   border: 1px solid #24242420;
 
