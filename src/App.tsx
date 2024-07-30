@@ -28,9 +28,7 @@ function App() {
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
-          slidesPerView={"auto"}
           spaceBetween={32}
-          onSwiper={(swiper) => console.log(swiper)}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -58,12 +56,7 @@ function App() {
                 )}
               </div>
               <div className="w-full bg-#e6e6e6 h-221px flex rounded-t items-center justify-center overflow-hidden">
-                <BlurHash
-                  src={image.url}
-                  alt={image.title}
-                  // hash="L9A,d%}@DjSz0|0gD+s.?Y-A%2X7"
-                  hash={image.hash}
-                />
+                <BlurHash src={image.url} alt={image.title} hash={image.hash} />
               </div>
               <div className="flex px-10px flex-col">
                 <div className="  my-10px bg-opacity-50 text-#242424  ">
