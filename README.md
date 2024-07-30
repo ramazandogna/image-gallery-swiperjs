@@ -15,8 +15,8 @@ React (Axios, Rooter, Hooks, Redux Toolkit, Redux Persist), CSS.
 
 - **Slider**
 
-![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/homepage-1.png)
+![App Screenshot](https://github.com/ramazandogna/image-gallery-swiperjs/blob/main/slider.png)
 
 - **Image Optimization**
 
-![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/poke-detail.png)
+![App Screenshot](https://github.com/ramazandogna/image-gallery-swiperjs/blob/main/image-optimization.png)
