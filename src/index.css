@@ -87,3 +87,20 @@
     rgba(204, 204, 204, 0) 100%
   );
 }
+
+.image-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: #e6e6e6;
+}
+
+.pixelated {
+  filter: blur(10px);
+  transition: filter 1s ease-out;
+}
+
+.loaded {
+  filter: blur(0);
+}

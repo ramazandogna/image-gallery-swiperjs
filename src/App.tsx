@@ -12,10 +12,10 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { MdiStar } from "./assets/icons/star";
 import { LoveEmpty, LoveFill } from "./assets/icons/love";
+import BlurHash from "./components/blurhash";
 
 function App() {
   const [like, setLike] = useState(false);
-
   return (
     <div className="fixed inset-0 text-black bg-white">
       <div className="flex justify-center fixed left-47px right-47px top-50%  -translate-y-50% ">
@@ -44,7 +44,7 @@ function App() {
         >
           {images.map((image) => (
             <SwiperSlide
-              className="w-212px relative cursor-pointer shadow-md hover:shadow-2xl rounded [border:1px_solid_#00000030] bg-white h-350px"
+              className="w-212px relative cursor-pointer shadow-md transition-all hover:-translate-y-1px hover:shadow-2xl rounded hover:[border:1px_solid_#00000035] [border:1px_solid_#00000020] bg-white h-350px"
               key={image.id}
             >
               <div
@@ -58,11 +58,11 @@ function App() {
                 )}
               </div>
               <div className="w-full bg-#e6e6e6 h-221px flex rounded-t items-center justify-center overflow-hidden">
-                <img
+                <BlurHash
                   src={image.url}
                   alt={image.title}
-                  loading="lazy"
-                  className="h-auto w-full hover:scale-105 delay-50 duration-500 transition-all"
+                  // hash="L9A,d%}@DjSz0|0gD+s.?Y-A%2X7"
+                  hash={image.hash}
                 />
               </div>
               <div className="flex px-10px flex-col">

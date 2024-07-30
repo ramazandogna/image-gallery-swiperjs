@@ -16,6 +16,7 @@ export const images: Image[] = [
     title: "Sunset Over the Mountains",
     description:
       "A breathtaking view of the sun setting behind the mountains, casting a warm golden glow over the landscape.",
+    hash: "L2AIxt,n0316@?}W150%L~-o735S",
   },
   {
     id: 2,
@@ -23,6 +24,7 @@ export const images: Image[] = [
     title: "Tranquil Beach",
     description:
       "A serene beach scene with gentle waves lapping at the shore, perfect for a peaceful escape from the hustle and bustle of daily life.",
+    hash: "L9A,d%}@DjSz0|0gD+s.?Y-A%2X7",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ export const images: Image[] = [
     title: "Majestic Forest",
     description:
       "An enchanting forest with tall trees and a carpet of lush green moss, creating a magical and calming atmosphere.",
+    hash: "L14xb;Nz^j5Rcas9ozjY0MnN9u-T",
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ export const images: Image[] = [
     title: "City Skyline at Night",
     description:
       "A vibrant city skyline illuminated by thousands of lights, showcasing the energy and excitement of urban life after dark.",
+    hash: "LNE{kQR%ofa}?wR*j[of0KWBWBjt",
   },
   {
     id: 5,
@@ -44,6 +48,7 @@ export const images: Image[] = [
     title: "Rolling Hills",
     description:
       "Gently rolling hills covered in verdant grass, stretching as far as the eye can see, offering a sense of peace and tranquility.",
+    hash: "L74:r4yk8+MOt#pDVdVd8+Q?.exr",
   },
   {
     id: 6,
@@ -51,6 +56,7 @@ export const images: Image[] = [
     title: "Snow-Capped Mountains",
     description:
       "A stunning view of snow-capped mountains under a clear blue sky, highlighting the majesty and grandeur of nature in its purest form.",
+    hash: "LHBO5Gm,EMslCTVsIUbb01o}={WX",
   },
   {
     id: 7,
@@ -58,6 +64,7 @@ export const images: Image[] = [
     title: "Snow-Capped Mountains",
     description:
       "A stunning view of snow-capped mountains under a clear blue sky, highlighting the majesty and grandeur of nature in its purest form.",
+    hash: "L97,[3WC0ms.xXa|R,j@0moe}-WD",
   },
   {
     id: 8,
@@ -65,6 +72,7 @@ export const images: Image[] = [
     title: "Snow-Capped Mountains",
     description:
       "A stunning view of snow-capped mountains under a clear blue sky, highlighting the majesty and grandeur of nature in its purest form.",
+    hash: "LoH,@WxYjZWV~AoeR*f6S4azR*oL",
   },
   {
     id: 9,
@@ -72,5 +80,30 @@ export const images: Image[] = [
     title: "Snow-Capped Mountains",
     description:
       "A stunning view of snow-capped mountains under a clear blue sky, highlighting the majesty and grandeur of nature in its purest form.",
+    hash: "L7DSRcT24T}U00-r.A9Y}U{v;eF|",
+  },
+  {
+    id: 10,
+    url: image4,
+    title: "City Skyline at Night",
+    description:
+      "A vibrant city skyline illuminated by thousands of lights, showcasing the energy and excitement of urban life after dark.",
+    hash: "LNE{kQR%ofa}?wR*j[of0KWBWBjt",
+  },
+  {
+    id: 11,
+    url: image8,
+    title: "City Skyline at Night",
+    description:
+      "A vibrant city skyline illuminated by thousands of lights, showcasing the energy and excitement of urban life after dark.",
+    hash: "LoH,@WxYjZWV~AoeR*f6S4azR*oL",
+  },
+  {
+    id: 12,
+    url: image5,
+    title: "Rolling Hills",
+    description:
+      "Gently rolling hills covered in verdant grass, stretching as far as the eye can see, offering a sense of peace and tranquility.",
+    hash: "L74:r4yk8+MOt#pDVdVd8+Q?.exr",
   },
 ];

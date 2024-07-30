@@ -3,6 +3,7 @@ export type Image = {
   title: string;
   url: string;
   description: string;
+  hash?: string;
 };
 
 export interface Images {

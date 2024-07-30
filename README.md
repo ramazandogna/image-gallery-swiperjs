@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# Image Gallery with SwiperJs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pokedex app with React (Hooks, Router, Axios, Redux Toolkit), Pokemon API
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I published my project on netlify. You can click [this link](https://pokepokeapp.netlify.app/)
+to see the live demo of the project.
 
-## Expanding the ESLint configuration
+## Techs
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+React (Axios, Rooter, Hooks, Redux Toolkit, Redux Persist), CSS.
 
-- Configure the top-level `parserOptions` property like this:
+## Screenshots
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **Home Page**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/homepage-1.png)
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/homepage-2.png)
+
+- **Pokemon Detail**
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/poke-detail.png)
+
+- **Pokemon Store**
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/poke-store.png)
+
+- **Pokemon List**
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/pokelist.png)
+
+- **Cart**
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/cart.png)
+
+- **Mobile Appearances**
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/mobile-1.png)
+
+![App Screenshot](https://github.com/ramazandogna/pokepoke-app/blob/main/src/assets/img/Screenshots/mobile-2.png)
