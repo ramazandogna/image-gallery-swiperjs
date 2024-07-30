@@ -15,8 +15,8 @@ React (Axios, Rooter, Hooks, Redux Toolkit, Redux Persist), CSS.
 
 - **Slider**
 
-![App Screenshot](https://github.com/ramazandogna/image-gallery-swiperjs/blob/main/slider.png)
+![App Screenshot](https://github.com/ramazandogna/image-gallery-swiperjs/blob/main/src/assets/slider.png)
 
 - **Image Optimization**
 
-![App Screenshot](https://github.com/ramazandogna/image-gallery-swiperjs/blob/main/image-optimization.png)
+![App Screenshot](https://github.com/ramazandogna/image-gallery-swiperjs/blob/main/src/assets/image-optimization.png)
