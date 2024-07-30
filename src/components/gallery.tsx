@@ -20,7 +20,7 @@ export default function Gallery() {
   const [like, setLike] = useState(false);
   return (
     <main className="flex justify-center px-10px fixed md:left-47px left-15px right-15px md:right-47px top-50%  -translate-y-50% ">
-      <div className="relative w-1200px">
+      <div className="relative w-full md:w-1200px">
         <div className="gradient-bg max-w-1240px absolute -top-50px h-full bottom-50px w-full"></div>
         <div className="absolute px-20px h-62px mt-7px flex items-center justify-between -top-62px [width:calc(100%-40px)] md:max-w-1200px">
           <span className="font-bold">Çok Satanlar</span>
