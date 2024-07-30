@@ -31,6 +31,10 @@
   right: -21px !important;
   z-index: 99999999;
   border: 1px solid #24242420;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .swiper-button-next::after {
@@ -62,6 +66,10 @@
   left: -21px !important;
   z-index: 99999999;
   border: 1px solid #24242420;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .swiper-button-prev::after {
@@ -88,19 +96,7 @@
   );
 }
 
-.image-container {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  position: relative;
-  background-color: #e6e6e6;
-}
-
-.pixelated {
-  filter: blur(10px);
-  transition: filter 1s ease-out;
-}
-
-.loaded {
-  filter: blur(0);
+.info:hover .info-icon {
+  background-color: #ffffff;
+  color: #ccc;
 }
