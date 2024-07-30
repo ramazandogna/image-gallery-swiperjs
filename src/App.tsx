@@ -29,6 +29,7 @@ function App() {
           effect={"coverflow"}
           grabCursor={true}
           spaceBetween={32}
+          slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
