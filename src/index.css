@@ -27,8 +27,8 @@
   background-color: #ffffff;
   transition: all 0.3s ease;
   font-weight: 700;
-  position: fixed;
-  right: 41px !important;
+  position: absolute;
+  right: -21px !important;
   z-index: 99999999;
   border: 1px solid #24242420;
 
@@ -62,8 +62,8 @@
   background-color: #ffffff;
   transition: all 0.3s ease;
   font-weight: 700;
-  position: fixed;
-  left: 41px !important;
+  position: absolute;
+  left: -21px !important;
   z-index: 99999999;
   border: 1px solid #24242420;
 
